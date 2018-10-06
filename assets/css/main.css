@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.hero {
+    background-image: url("../images/hero-homepage.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.row {
+    width: 1200px;
+    margin: auto;
+}
+
+.navigation {
+    padding: 40px 0;
+}
+
+.logo {
+    background-image: url("../images/logo/asset-28.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30px;
+}
