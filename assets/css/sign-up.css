@@ -90,7 +90,7 @@ body {
 }
 
 .logo {
-    background-image: url("../images/logo/asset-25.png");
+    background-image: url("../images/logo/Asset-25.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 25px;
@@ -98,7 +98,7 @@ body {
 }
 
 .logo-sm {
-    background-image: url("../images/logo/asset-29.png");
+    background-image: url("../images/logo/Asset-29.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 35px;
@@ -397,15 +397,13 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         margin: 0;
+        color: #ffffff;
+        padding: 20px;
+        font-weight: bold;
     }
 
     .hide-for-small {
         display: none;
-    }
-
-    .navigation-left {
-        color: #ffffff;
-        padding: 20px;
     }
 
     .navigation-left h1 {
@@ -425,14 +423,20 @@ body {
     .navigation-left .secondary-link {
         color: #ffffff;
         text-decoration: underline;
+        font-weight: bold;  
     }
 
     .navigation-left p {
         font-size: 13px;
+        font-weight: normal;
     }
 
     .content-left {
         padding: 30px;
+    }
+
+    .form-content {
+        padding-top: 30px;
     }
 
     .form-content .col-md-6,
@@ -461,7 +465,8 @@ body {
     }
 
     .gradient-bg {
-        height: 280px;
+        height: 320px;
+        margin-bottom: 80px;
         background-image: linear-gradient(#D4F4F6,#ffffff);
     }
 
@@ -479,7 +484,7 @@ body {
         padding-top: 60px;
         box-sizing: border-box;
         color: #3A94AB;
-        font-size: 13px;
+        font-size: 14px;
     }
     .footer label {
         display: block;
@@ -516,7 +521,7 @@ body {
     }
 
     .footer p {
-        font-size: 11px;
+        font-size: 12px;
         margin-bottom: 30px;
     }
 
@@ -532,7 +537,8 @@ body {
         background-color: transparent;
         width: 100%;
         outline: none;
-        font-size: 12px;
+        border-radius: 0;
+        font-size: 14px;
     }
 
     .footer-bot > div:last-child {
