@@ -103,6 +103,7 @@ body {
     background-repeat: no-repeat;
     height: 35px;
     vertical-align: middle;
+    margin-top: 15px;
 }
 
 .logo-sm-color {
@@ -481,7 +482,7 @@ body {
     .footer {
         margin-top: 20px;
         padding: 0 20px;
-        padding-top: 60px;
+        padding-top: 50px;
         box-sizing: border-box;
         color: #3A94AB;
         font-size: 14px;
@@ -509,20 +510,28 @@ body {
         font-size: 0;
     }
 
-    .socials > img {
-        width: 100%;
-        margin-bottom: 5px;
-    }
-
-    .socials > div {
+    .socials {
         display: flex;
         justify-content: space-between;
-        margin-top: 10px;
+        margin: 32px 0 15px;
     }
 
     .footer p {
         font-size: 12px;
         margin-bottom: 30px;
+    }
+
+    .footer-socials > div:nth-child(1) {
+        padding-right: 10px;
+    }
+
+    .footer-socials > div:nth-child(2) {
+        padding-left: 2px;
+    }
+
+    .footer-socials img {
+        width: 95%;
+        margin-bottom: 10px;
     }
 
     .footer label {
@@ -539,10 +548,32 @@ body {
         outline: none;
         border-radius: 0;
         font-size: 14px;
+        color: #333333;
+        padding-bottom: 5px;
+        padding-right: 20px;
+    }
+
+    .input-box img {
+        position: absolute;
+        bottom: 30px;
+        right: 0;
+        height: 15px;
     }
 
     .footer-bot > div:last-child {
         padding-left: 15px;
     }
+
+    .footer-address {
+        margin-top: 25px;
+        font-size: 12.5px;
+        font-weight: normal;
+    }
+
+    .footer-address div:nth-child(2) {
+        padding-left: 15px;
+    }
+
+    
    
 }
